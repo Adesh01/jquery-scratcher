@@ -1,0 +1,412 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+.ie7 .title {
+    padding-top: 20px;
+}
+*, *:before, *:after {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* img {
+    max-width:100%;
+    height:auto;
+}
+/* ==========================================================================
+   HAPPY HOUR OCTOBER PROMO Page
+   ========================================================================== */
+
+@font-face {
+ font-family:'Brandon Grotesque Medium';
+    src:url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-med-webfont.eot');
+    src:url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-med-webfont.ttf') format('truetype'),
+        url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-med-webfont.svg') format('svg'),
+        url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-med-webfont.woff2') format('woff2'),
+        url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-med-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+ font-family:'Brandon Grotesque Bold';
+    src:url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-bld-webfont.eot');
+    src:url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-bld-webfont.ttf') format('truetype'),
+        url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-bld-webfont.svg') format('svg'),
+        url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-bld-webfont.woff2') format('woff2'),
+        url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-bld-webfont.woff') format('woff');
+    font-weight:normal;
+    font-style: italic;
+}
+
+#scratcher {
+    background:#1c242c;
+    height:1720px;
+    max-width:1000px;
+    margin:0 auto;
+    text-align:center;
+    margin-top:50px;
+    padding:10px;
+}
+h1.gather {
+    font-family:'Quicksand', sans-serif;
+    color:#fff;
+    font-size:90px;
+    line-height:102px;
+    margin: 0 auto;
+    text-align:left;
+   text-shadow:1px 4px 10px #fff;
+   text-transform:none;
+    letter-spacing:3px;
+    margin-left:10%;
+    margin-top:6%;
+    margin-bottom:3.5%;
+}
+h4.reveal {
+    font-size:15px;
+    color:#fff;
+    font-family:Helvetica, Arial, sans-serif;
+    text-shadow:1px 1px 3px #fff;
+    letter-spacing:1px;
+    margin-bottom:0px;
+}
+.scr-main {
+    margin: 0 auto;
+    height:auto;
+    display:block;
+    text-align:center;
+    padding:10px 0px 0px; 
+    margin-left:14%; 
+    margin-right:12%;
+    position:relative;
+    min-height:990px;
+    /*border:2px solid #fff;*/
+}
+.js-container {
+    overflow:scroll;
+}
+.canvas {
+  position: absolute;
+  top: 11px;
+  left:28px;
+}
+.canvas2 {
+  position: absolute;
+  top: 11px;
+  right:28px; 
+}
+.canvas3 {
+    position: absolute;
+  top: 340px;
+  left:28px; 
+}
+.canvas4 {
+    position: absolute;
+  top: 340px;
+  right:28px; 
+}
+.canvas5 {
+    position: absolute;
+  top: 680px;
+  left:28px; 
+}
+.canvas6 {
+    position: absolute;
+  top: 680px;
+  right:28px; 
+}
+/*Solution TWO */
+#disk-canvas {
+    display: block;
+    margin: 0 auto;
+    background-image: url('../img/disk-one.png');
+    background-size: cover;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    cursor:  crosshair;
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 33 33, crosshair;
+}
+#disk-canvas2 {
+    display: block;
+    margin: 0 auto;
+    background-image: url('../img/disk-two.png');
+    background-size: cover;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    cursor:  crosshair;
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 33 33, crosshair;
+}
+#disk-canvas3 {
+    display: block;
+    margin: 0 auto;
+    background-image: url('../img/disk-three.png');
+   background-size: cover;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    cursor:  crosshair;
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 53 53, crosshair;
+}
+#disk-canvas4 {
+    display: block;
+    margin: 0 auto;
+    background-image: url('../img/disk-four.png');
+    background-size: cover;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    cursor:  crosshair;
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 53 53, crosshair;
+}
+#disk-canvas5 {
+    display: block;
+    margin: 0 auto;
+    background-image: url('../img/disk-five.png');
+   background-size: cover;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    cursor:  crosshair;
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 53 53, crosshair;
+}
+#disk-canvas6 {
+    display: block;
+    margin: 0 auto;
+    background-image: url('../img/disk-six.png');
+    background-size: cover;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    cursor:  crosshair;
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 53 53, crosshair;
+}
+.disk-left {
+    width:50%;
+    float:left;
+    padding:0px 15px;
+    margin-bottom:20px;
+    text-align:right;
+    overflow:auto;
+}
+.disk-right {
+    width:50%;
+    float:left;
+    padding:0px 15px;
+    margin-bottom:20px;
+    text-align:left;
+    overflow:auto;
+}
+.disk-over, .disk-over2 { 
+    margin: 0 0px 0px;
+    /*visibility:hidden;*/
+}   
+h2.congrats {
+    font-family:'Arial Black', Helvetica, sans-serif;
+    color:#fff;
+    font-size:20px;
+    line-height:26px;
+    letter-spacing:.3px;
+    text-transform:uppercase;
+    margin:0 auto;
+    text-align:center;
+    margin-top:50px;
+}
+button.book {
+    border:1px solid #fff;
+    background:#1c242c;
+    color:#fff;
+    font-size:28px;
+    font-family:'Arial Black', Arial, sans-serif;
+    text-transform:uppercase;
+    padding:9px 60px 10px;
+    margin-top:25px;
+    min-width:280px;
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media screen and (max-width: 1030px) {
+      .scr-main {
+        margin-left:12%;
+        margin-right:11 } }
+@media screen and (max-width: 980px) {
+      .scr-main {
+        margin-left:11%;
+        margin-right:10%;} }
+@media screen and (max-width: 960px) {
+      .scr-main {
+        margin-left:10%;
+        margin-right:9%;} }
+@media screen and (max-width: 940px) {
+      .scr-main {
+        margin-left:9%;
+        margin-right:8%;} }
+@media screen and (max-width: 920px) {
+      .scr-main {
+        margin-left:8%;
+        margin-right:7%;} }
+@media screen and (max-width: 900px) {
+      .scr-main {
+        margin-left:7%;
+        margin-right:6%;} }  
+@media screen and (max-width: 880px) {
+      .scr-main {
+        margin-left:6%;
+        margin-right:5%;} }
+@media screen and (max-width: 860px) {
+      .scr-main {
+        margin-left:5%;
+        margin-right:4%;} }
+@media screen and (max-width: 840px) {
+      .scr-main {
+        margin-left:3%;
+        margin-right:2%;} }
+ 
+@media screen and (max-width: 770px) {
+    #scratcher {
+        height:auto;
+        overflow:auto;
+        padding-bottom:60px;
+    }
+    .scr-main {
+        margin-left:0%;
+        margin-right:0%;
+    }
+    img.disk,img.disk-over { 
+        margin: 0 10px 0px;
+    }
+    h1.gather {
+        font-size:70px;
+        line-height:82px;
+        text-align:left;
+       text-shadow:1px 3px 10px #fff;
+        letter-spacing:2px;
+        margin-left:5%;
+    }
+}
+@media screen and (max-width: 740px) {
+    #disk-canvas, #disk-canvas2, #disk-canvas3, #disk-canvas4, #disk-canvas5, #disk-canvas6 {
+        width:45%;
+    }
+    .canvas3, .canvas4 {
+        top: 300px;
+    }
+    .canvas5, .canvas6 {
+        top: 590px;
+    }
+    .scr-main {
+        min-height:860px;
+    }
+}
+@media screen and (max-width: 646px) {
+    .canvas3, .canvas4 {
+        top: 260px;
+    }
+    .canvas5, .canvas6 {
+        top: 520px;
+    }
+    .scr-main {
+        min-height:750px;
+    }
+}
+@media screen and (max-width: 606px) {
+    .canvas3, .canvas4 {
+      top: 240px;
+    }
+    .canvas5, .canvas6 {
+        top: 470px;
+    }
+    .scr-main {
+        min-height:710px;
+    }
+}
+@media screen and (max-width: 550px) {
+    h1.gather {
+        font-size: 64px;
+        line-height: 72px;
+    }
+    .canvas3, .canvas4 {
+      top: 220px;
+    }
+    .canvas5, .canvas6 {
+        top: 435px;
+    }
+    .scr-main {
+        min-height:640px;
+    }
+}
+@media screen and (max-width: 495px) {
+     h1.gather {
+        font-size: 54px;
+        line-height: 62px;
+    }
+    #disk-canvas, #disk-canvas2, #disk-canvas3, #disk-canvas4, #disk-canvas5, #disk-canvas6 {
+        width:42%;
+    }
+    .canvas3, .canvas4 {
+      top: 200px;
+    }
+    .canvas5, .canvas6 {
+        top: 390px;
+    }
+    .scr-main {
+        margin-left:0%;
+        margin-right:0%;
+        min-height:570px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .canvas3, .canvas4 {
+      top: 180px;
+    }
+    .canvas5, .canvas6 {
+        top: 350px;
+    }
+    .scr-main {
+       min-height:510px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .canvas3, .canvas4 {
+      top: 170px;
+    }
+    .canvas5, .canvas6 {
+        top: 330px;
+    }
+    .scr-main {
+       min-height:470px;
+    }
+    h1.gather {
+        font-size: 48px;
+        line-height: 52px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .canvas3, .canvas4 {
+      top: 163px;
+    }
+    .canvas5, .canvas6 {
+        top: 315px;
+    }
+    .scr-main {
+       min-height:440px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .canvas3, .canvas4 {
+      top: 147px;
+    }
+    .canvas5, .canvas6 {
+        top: 280px;
+    }
+    .scr-main {
+       min-height:400px;
+    }
+}
+
+
+
